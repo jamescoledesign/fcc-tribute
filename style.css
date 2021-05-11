@@ -1,0 +1,373 @@
+:root {
+    --dark-gray: #1a1a1a;
+    --light-gray: #e3e4e5;
+    --very-light-gray: #f2f2f2;
+    --main-color: #e51b24;
+    --link-color: #0070c9;
+}
+
+.top-line {
+    border: 2px;
+    border-style: solid;
+    border-color: var(--main-color);
+    margin: 0px;
+}
+
+#main-nav {
+    position: fixed;
+    max-width: 960px;
+    margin-bottom: 20px;
+    background-color: var(--dark-gray);
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    text-transform: uppercase;
+}
+
+#initials {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 26px;
+    float: left;
+    text-align: left;
+    color: var(--main-color);
+    margin-top: 7px;
+    margin-bottom: 12px;
+    margin-left: 40px;
+}
+
+ul {
+    float: right;
+    display: block;
+    list-style: none;
+    margin-top: 14px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+li {
+    font-family: sans-serif;
+    font-size: 12px;
+    display: inline;
+    padding-left: 14px;
+    color: white;
+}
+
+body {
+    clear: both;
+    font-family: sans-serif;
+    margin: auto;
+    max-width: 960px;
+    align-content: center;
+    background-color: #000000;
+    background-color: #1a1a1a;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='334' height='278.3' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.07'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/svg%3E");
+/* background by SVGBackgrounds.com */
+    
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--light-gray);
+}
+
+#title {
+    color: white;
+    padding-top: 100px;
+    width: 50%;
+    
+}
+
+.portrait {
+    width: 50%;
+    max-width: 400px;
+    margin-top: 50px;
+    padding-bottom: 0;
+    margin-left: 80px;
+}
+
+.primary {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: -4px;
+}
+
+
+.headline {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: var(--dark-gray);
+    font-size: 80px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-left: 40px;
+    line-height: 70px;
+}
+
+    @media only screen and (max-width: 825px) {
+  .headline {
+    font-size: 55px;
+    margin-bottom: 26px;
+    padding-left: 40px;
+    line-height: 45px;
+    padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 609px) {
+  .headline {
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    line-height: 35px;
+    padding-top: 0px;
+    }
+}
+
+.subhead {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--dark-gray);
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 30px;
+    letter-spacing: .25px;
+    padding-left: 40px;
+}
+
+@media only screen and (max-width: 746px) {
+  .subhead {
+    font-size: 20px;
+    margin-top: 22px;
+    margin-bottom: 15px;
+  }
+}
+   
+@media only screen and (max-width: 560px) {
+  .subhead {
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+
+  }
+}
+ 
+
+.line-left {
+    border: 4px;
+    border-style: solid;
+    border-color: var(--main-color);
+    width: 100px;
+    margin-left: 40px;
+}
+
+.line-center {
+    border: 4px;
+    border-style: solid;
+    border-color: var(--main-color);
+    width: 100px;
+
+}
+
+#tribute-info {
+    background-color: var(--dark-gray);
+    display: block;
+    z-index: 1;
+}
+
+#about {
+    position: relative;
+}
+
+#section-heading {
+    background-color: var(--dark-gray);
+    padding-top: 40px;
+    text-align: center;  
+}
+
+#section-heading-ongray {
+    background-color: var(--light-gray);
+    padding-top: 40px;
+    text-align: center;  
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.hlwhite {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: white;
+}
+
+.hldark {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: var(--dark-gray);
+}
+
+.section-text-white {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+    padding-top: 20px;
+    max-width: 680px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-text-dark {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: var(--dark-gray);
+    padding-top: 20px;
+    max-width: 680px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#img-div {
+    background-color: var(--dark-gray);
+    clear: both;
+    display: block;
+    max-width: 960px;
+    margin-top: 40px;
+}
+
+#img-div2 {
+    background-color: var(--dark-gray);
+    clear: both;
+    display: block;
+    max-width: 960px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+}
+
+#image {
+    display: block;
+    width: 100%;
+    max-width: 960px;
+}
+
+#img-caption {
+    clear: both;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    background-color: var(--light-gray);  
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+#sources {
+    display: block;
+    z-index: 2;
+}
+
+.threecol {
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+@media only screen and (max-width: 815px) {
+  .threecol {
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      text-align: center;
+    }
+}
+
+.photo1 {
+    width: 240px;
+    height: 240px;
+    background-color: aqua;
+    order: 1;
+    background-image: url(https://dynaimage.cdn.cnn.com/cnn/w_1600/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F180608124842-21-bourdain-unfurled.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+@media only screen and (max-width: 815px) {
+  .photo1 {
+    width: 80%;
+    height: 420px;;
+    background-color: green;
+    margin: 0 auto;
+    }
+}
+
+.photo2 {
+    width: 240px;
+    height: 240px;
+    background-color: aqua;
+    order: 2;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-image: url(https://dynaimage.cdn.cnn.com/cnn/w_1600/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F180608152835-10-bourdain-unfurled.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width: 815px) {
+  .photo2 {
+    width: 80%;
+    height: 420px;;
+    background-color: green;
+    margin: 0 auto;
+    margin-top: 40px;
+    }
+}
+
+.photo3 {
+    width: 240px;
+    height: 240px;
+    background-color: aqua;
+    order: 3;
+    background-image: url(https://www.rollingstone.com/wp-content/uploads/2018/06/bourdain-found-dead-paris-chef-2018-3053b864-1eec-432f-8a08-8347ea1ad7c4.jpg?%22%20alt=%22Anthony%20Bourdain%20in%20the%20kitchen);
+    background-size: cover;
+    background-position: center;
+
+}
+
+@media only screen and (max-width: 815px) {
+  .photo3 {
+    width: 80%;
+    height: 420px;;
+    background-color: green;
+    margin: 0 auto;
+    margin-top: 40px;
+    }
+}
+
+#large2 {
+    display: block;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
